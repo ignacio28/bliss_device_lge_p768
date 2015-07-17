@@ -1,26 +1,26 @@
 [
 {
-    "repository": "l9rebuild2/android_kernel_u2",
+    "repository": "ignacio28/kernel_lge_u2",
     "target_path": "kernel/lge/u2",
     "revision": "cm-12.1",
     "remote": "github"
   },
   {
-    "repository": "l9rebuild/android_device_lge_u2-common",
+    "repository": "ignacio28/device_lge_u2-common",
     "target_path": "device/lge/u2-common",
-    "revision": "cm-12.1-t",
+    "revision": "cm-12.1",
     "remote": "github"
   },
     {
-    "repository": "TheMuppets/proprietary_vendor_lge",
-    "target_path": "vendor/lge",
+    "repository": "ignacio28/vendor_lge_p768",
+    "target_path": "vendor/lge/p768",
     "revision": "cm-12.1",
     "remote": "github"
   },
   {
-    "repository": "l9rebuild/proprietary_vendor_lge_u2",
+    "repository": "ignacio28/vendor_lge_u2",
     "target_path": "vendor/lge/u2",
-    "revision": "cm-12.0",
+    "revision": "cm-12.1",
     "remote": "github"
   }
 ]
