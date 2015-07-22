@@ -18,7 +18,7 @@ PRODUCT_SFX := intl
 # Release name and versioning
 PRODUCT_RELEASE_NAME := p768
 PRODUCT_VERSION_DEVICE_SPECIFIC := 
--include vendor/bliss/config/common_versions.mk
+-include vendor/bliss/config/versions.mk
 
 UTC_DATE := $(shell date +%s)
 
