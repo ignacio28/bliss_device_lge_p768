@@ -25,3 +25,13 @@ TARGET_KERNEL_SOURCE := kernel/lge/u2
 
 #Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p768/bluetooth
+
+# BlissPop Config Flags
+BLISS_PIPE := true
+TARGET_TC_ROM := 4.8
+TARGET_TC_KERNEL := 4.8
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
+#SaberMod
+-include vendor/bliss/config/sm.mk
