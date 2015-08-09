@@ -28,6 +28,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p768/bluetooth
 
 # BlissPop Config Flags
 BLISS_PIPE := true
+BLISSIFY := true
 BLISS_GRAPHITE := true
 TARGET_TC_ROM := 4.8
 TARGET_TC_KERNEL := 4.8
